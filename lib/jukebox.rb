@@ -28,7 +28,7 @@ def play(array)
   input = gets.strip
   array.each_with_index do |song, index|
     if input == "#{song}" || input.to_i == index + 1
-      p"Playing #{song}"
+      p "Playing #{song}"
     end
   end
   puts "Invalid input, please try again."
