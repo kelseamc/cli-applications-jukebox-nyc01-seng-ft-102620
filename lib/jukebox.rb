@@ -34,3 +34,6 @@ def play(array)
   end
   puts "Invalid input, please try again."
 end
+
+def exit_jukebox
+end
