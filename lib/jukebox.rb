@@ -40,4 +40,18 @@ def exit_jukebox
 end
 
 def run(array)
+  puts "Please enter a command:"
+  response = gets.strip
+  if response == "exit"
+    exit_jukebox
+    break
+  elsif response == "help"
+    help
+    break
+  elsif response == "list"
+    list(array)
+    break
+  elsif response == "play"
+    play(array)
+    break
 end
