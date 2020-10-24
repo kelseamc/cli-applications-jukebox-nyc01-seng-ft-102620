@@ -31,6 +31,7 @@ def play(array)
       puts "Playing #{song}"
     else
       puts "Invalid input, please try again".
+      play(array)
     end
   end 
 end
