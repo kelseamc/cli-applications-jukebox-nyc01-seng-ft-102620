@@ -33,5 +33,5 @@ def play(array)
       puts "Invalid input, please try again".
       play(array)
     end
-  end 
+  end
 end
