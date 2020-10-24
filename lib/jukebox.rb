@@ -34,4 +34,3 @@ def play(array)
     end
   end
 end
-
