@@ -27,7 +27,7 @@ def play(array)
   puts "Please enter a song name or number:"
   input = gets.strip
   array.each_with_index do |song, index|
-    if input == song || input.to_i == index
+    if input == song || input == index
       return "Playing #{song}"
     end
   end
